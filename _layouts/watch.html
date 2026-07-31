@@ -38,14 +38,11 @@ title: Watch Sermons
             <h2>Browse More Content</h2>
             <p>Watch other recent sermons or browse through sermon topics</p>
             <hr>
+            <div class="sermon-grid">
             {% assign sermons = site.sermons | sort: "date" | reverse %}
 
             {% for sermon in sermons offset:1 limit:6 %}
 
-
-            <div class="sermon-grid">
-               
-                    
                     <div class="sermon-card">
                         <h3>{{ sermon.title }}</h3>
                         <p>{{ sermon.scripture }}</p>
