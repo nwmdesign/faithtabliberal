@@ -50,7 +50,7 @@ title: Watch Sermons
                         <h3>{{ sermon.title}}</h3>
                         <p>{{ sermon.scripture }}</p>
                         <p>{{ sermon.date }}</p>
-                        <a class="button" href="sermon-post.html">Watch</a>
+                        <a class="button" href="{{ sermon.url | relative_url }}">Watch</a>
 
                     </div>
                 {% endfor %}                    
