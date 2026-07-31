@@ -236,10 +236,15 @@ header {
 
 .column img {
     width: 100%;
-    height: auto;
-    max-width: 500px;
-    max-height: 300px;
+    height: 300px;
+    object-fit: cover;
     border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+    .column img {
+        height: auto;
+    }
 }
 
 .background-color {
@@ -276,7 +281,8 @@ header {
 }
 
 .light-section-text-box {
-    max-width: 500px;
+    width: 500px;
+    height: auto;
     margin: 0 auto;
     align-items: center;
 }
