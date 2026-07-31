@@ -3,8 +3,6 @@ layout: page
 title: What We Believe
 description: Our Statement of Faith
 ---
-{% include grey-section.html %}
-
 ## The Bible
 ## We believe the Scriptures are the inspired and authoritative Word of God.
 
