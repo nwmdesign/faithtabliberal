@@ -7,7 +7,7 @@ content:
     label: Sermons
     type: collection
     path: _sermons
-    filename: "{fields.slug}.md"
+    filename: "{fields.date}-{fields.title}.md"
     fields:
       - name: title
         label: Sermon Title
