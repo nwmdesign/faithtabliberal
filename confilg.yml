@@ -20,7 +20,7 @@ defaults:
       path: ""
       type: "sermons"
     values:
-      layout: sermon
+      layout: sermon-post
 
 # Exclude unnecessary files
 exclude:
