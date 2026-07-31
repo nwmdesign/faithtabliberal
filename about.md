@@ -4,8 +4,6 @@ title: About Us
 description: The Mission and Story of Faith Tabernacle Church
 ---
 
-{% include section-start.html type="grey" %}
-
 ## Our Mission
 ### We exist to glorify God by proclaiming the Gospel, discipling believers, and serving our community with compassion and truth.
 
@@ -15,4 +13,3 @@ description: The Mission and Story of Faith Tabernacle Church
 ## Our Pastor
 ### Larry Moore is a retired educator and a bi-vocational pastor who loves preaching the Word, shepherding people, and serving the community. His passion is helping people come to know the gospel of grace through the teaching of the Word of God.
 
-{% include section-end.html %}
