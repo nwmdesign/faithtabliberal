@@ -1,4 +1,12 @@
-   <Section class="feature-sermon">
+---
+layout: default
+title: Sermon Post
+scripture: Scripture
+date: 2026-07-30
+description: Summary and notes about the sermon
+youtube: VIDEO ID
+---
+<Section class="feature-sermon">
         <div class="container">
 
             <div class="feature-title">
@@ -13,7 +21,10 @@
                 
 
             <div class="feature-video">
-                <iframe width="700" height="400" src="https://www.youtube.com/embed/DBX8dF-toTQ?si=o3ZbfGGi4cPZ9YaC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="700" height="400" src="https://www.youtube.com/embed/{{ page.youtube }}" title="{{ page.title }}" frameborder="0" 
+                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+                   allowfullscreen>  
+                 </iframe>
             </div>
             <div class="feature-description">
                 <p><strong>Description:</strong></p>
@@ -39,7 +50,7 @@
                         <h3>{{ sermon.title}}</h3>
                         <p>{{ sermon.scripture }}</p>
                         <p>{{ sermon.date }}</p>
-                        <a class="button" href="sermon-post.html">Watch</a>
+                        <a class="button" href="{{ sermon.url | relative_url }}">Watch</a>
 
                     </div>
                 {% endfor %}                    
