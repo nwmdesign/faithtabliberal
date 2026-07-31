@@ -1,0 +1,48 @@
+   <Section class="feature-sermon">
+        <div class="container">
+
+            <div class="feature-title">
+                <h1>
+                    {{ page.title }}
+                    <span class="divider">-</span>
+                    <span class="scripture">{{ page.scripture }}</span>
+                    <span class="divider">-</span>
+                    <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
+                </h1>
+
+                
+
+            <div class="feature-video">
+                <iframe width="700" height="400" src="https://www.youtube.com/embed/DBX8dF-toTQ?si=o3ZbfGGi4cPZ9YaC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="feature-description">
+                <p><strong>Description:</strong></p>
+                <p>{{ page.description }}</p>
+            </div>
+        </div>
+    </Section>
+
+    <section class="explore-sermons">
+        <div class="container">
+            <h2>Browse More Content</h2>
+            <p>Watch other recent sermons or browse through sermon topics</p>
+            <hr>
+            {% assign sermons = site.sermons | sort: "date" | reverse %}
+
+            {% for sermon in sermons offset:1 limit:6 %}
+
+
+            <div class="sermon-grid">
+                <div class="grid-columns">
+                    
+                    <div class="sermon-card">
+                        <h3>{{ sermon.title}}</h3>
+                        <p>{{ sermon.scripture }}</p>
+                        <p>{{ sermon.date }}</p>
+                        <a class="button" href="sermon-post.html">Watch</a>
+
+                    </div>
+                {% endfor %}                    
+                </div>
+        </div>
+    </section>
