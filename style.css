@@ -9,6 +9,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 /*====HEADER====*/
 
@@ -63,6 +68,7 @@ nav {
 
 .container {
     max-width: 1400px;
+    width: 90%;
     margin: 0 auto;
     padding: 0 20px;
     ;
@@ -128,6 +134,7 @@ header {
 
 .hero .container {
     max-width: 1400px;
+    width:90%;
     margin: 0 auto;
     padding: 0 40px;
 }
@@ -142,6 +149,11 @@ header {
     gap: 60px;
     justify-content: center;
 }
+@media (max-width: 768px) {
+    .two-columns {
+        flex-direction: column;
+    }
+}
 
 .grid-columns {
     display: grid;
@@ -149,6 +161,15 @@ header {
     padding: 10px 20px; 
     gap: 60px;
     justify-content: center;
+}
+
+@media (max-width:768px) {
+    .grid-columns {
+        grid-template-columns: 1fr
+    }
+    .sermon-grid {
+        grid-template-columns: 1fr;
+    }
 }
     
 .column {
@@ -529,4 +550,10 @@ footer {
     background-position: center;  /* Keep image centered */
     background-repeat: no-repeat;
     padding: 100px 20px;
+}
+
+@media (max-width:768px) {
+    .hero {
+        background-position: center;
+    }
 }
