@@ -1,0 +1,34 @@
+media:
+  input: /images
+  output: /images
+
+content:
+  - name: sermons
+    label: Sermons
+    type: collection
+    path: _sermons
+    filename: "{fields.slug}.md"
+    fields:
+      - name: title
+        label: Sermon Title
+        type: string
+
+      - name: scripture
+        label: Scripture
+        type: string
+
+      - name: date
+        label: Date
+        type: date
+
+      - name: description
+        label: Description
+        type: text
+
+      - name: youtube
+        label: YouTube Video ID
+        type: string
+
+      - name: tags
+        label: Topics
+        type: list
