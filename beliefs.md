@@ -4,8 +4,6 @@ title: What We Believe
 description: Our Statement of Faith
 ---
 
-{% include section-start.html type="grey" %}
-
 ## The Bible
 ## We believe the Scriptures are the inspired and authoritative Word of God.
 
@@ -24,4 +22,3 @@ description: Our Statement of Faith
 ## The Christian Life
 ## We believe that Christ followers, believers, are called to holiness, love, obedience, and service.
 
-{% include section-end.html %}
