@@ -149,7 +149,7 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    margin: 0 auto;
+    margin: 55px auto;
 
     text-align: center;
     color: #6d9eeb  ;
@@ -296,8 +296,14 @@ header {
 .light-section {
     background-color: #f5f5f5;
     color: #222222;
-    padding: 20px 40px;
-       
+    padding: 20px 40px;      
+}
+
+.light-section-title {
+    background-color: #f5f5f5;
+    color: #222222;
+    margin: 55px auto;
+    padding: 20px 40px;      
 }
 
 .light-section h2 {
@@ -681,7 +687,7 @@ footer {
     padding: 10px 20px; 
     gap: 60px;
     justify-content: center;
-    background-color:  #228B22;
+    
 }
 
 .feature-image {
