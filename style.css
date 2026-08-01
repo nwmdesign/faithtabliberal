@@ -132,7 +132,7 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    margin: 0 auto;
+    margin: 0;
 
     text-align: center;
     color: white;
@@ -140,7 +140,7 @@ header {
 }
 
 .hero-title {
-    min-height: 200px;
+    height: auto;
     background-color: #ffffff;
     background-size: cover;
     background-position: center;
@@ -149,11 +149,11 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    margin: 55px auto;
+    margin: 0;
 
     text-align: center;
     color: #6d9eeb  ;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .hero h1 {
