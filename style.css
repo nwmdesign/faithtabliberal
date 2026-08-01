@@ -661,7 +661,7 @@ footer {
     .feature-description {
         width: 100%;
         padding: 5px 5px;
-        margin: 0 auto ;
+        margin: 5px auto;
         background-color: #dfdfdf;
         border-radius: 30px;
         text-align: left;
@@ -798,14 +798,14 @@ footer {
     font-family: 'open sans', sans-serif;
     color: #FFF2CC;
     }
-    @media (max-width: 768px) {
+   
 
     .sermon-card {
         padding: 15px;
     }
 
     .sermon-card h3 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         line-height: 1.25;
     }
 
