@@ -4,14 +4,44 @@
 <html>
 <head>
     <title>Home | Faith Tabernacle Church</title>
-    <description>Come to the Tabernacle</description>
-    <link rel="preload" as="image" href="/images/tabernacle2.png">
+    <meta name="description" content="Come to the Tabernacle">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-{% include nav.html %}
+
+    <header>
+        <nav>
+        <div class="logo">
+            <a href="/"><IMG SRC="images/logo.png" alt="church logo"></a>
+        </div>
+        
+        <div class="side-nav">
+            <a href="#" onclick="hideSidebar()">
+                <img src="images/close_24dp_000000_FILL1_wght400_GRAD0_opsz24.svg" alt="Close">
+            </a>
+            <a href="/">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="watch.html">Watch Sermons</a>
+            <a href="beliefs.html">What We Believe</a>
+            <a href="events.html">Events</a>
+        </div>
+        
+        <div class="nav-links">
+            
+            <a href="/">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="watch.html">Watch Sermons</a>
+            <a href="beliefs.html">What We Believe</a>
+            <a href="events.html">Events</a>
+            
+        </div>
+        <a class="menu" onclick="showSidebar()" href="#">
+                <img src="images/menu_24dp_434343_FILL0_wght400_GRAD0_opsz24.svg" alt="Menu">
+            </a>
+        </nav>
+</header>
 
     <section class="hero">
         <div class="container">
@@ -109,6 +139,16 @@
 
     </section>
 {% include footer.html %}
+<script>
+    function showSidebar() {
+        const sidebar = document.querySelector('.side-nav');
+        sidebar.style.display = 'flex';
+    }
 
+    function hideSidebar() {
+        const sidebar = document.querySelector('.side-nav');
+        sidebar.style.display = 'none';
+    }
+</script>
 </body>
 </html>
