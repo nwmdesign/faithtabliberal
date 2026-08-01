@@ -8,12 +8,11 @@ title: Plan Your Visit
 We would love for you to visit Faith Tabernacle Church! Whether you are looking for a church home, seeking to grow in your faith, or simply want to learn more about our church family, we invite you to join us.
 
 **Faith Tabernacle Church**  
-[Address Here]  
+514 N Kansas Ave, 
 Liberal, Kansas  
 
-**Sunday School — [Time]**  
-**Sunday Worship Service — [Time]**  
-**Wednesday Bible Study — [Time]**
+**Sunday School — 9:00 AM**  
+**Sunday Worship Service — 10:00 AM**  
 
 ## When You Arrive
 
