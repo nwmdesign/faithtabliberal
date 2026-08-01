@@ -798,5 +798,21 @@ footer {
     font-family: 'open sans', sans-serif;
     color: #FFF2CC;
     }
+    @media (max-width: 768px) {
+
+    .sermon-card {
+        padding: 15px;
+    }
+
+    .sermon-card h3 {
+        font-size: 1.3rem;
+        line-height: 1.25;
+    }
+
+    .sermon-card p {
+        font-size: 0.95rem;
+    }
+
+}
 
 }  
