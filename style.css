@@ -553,10 +553,10 @@ footer {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 40px;
+    padding: 10px 20px;
     border-radius: 12px;
     box-shadow: #222222;
-    background-color: #000080;
+   
 }
 
 @media(max-width:768px){
@@ -569,7 +569,7 @@ footer {
         padding: 1px 10px;
         border-radius: 12px;
         box-shadow: #222222;
-        background-color: #000080;
+        
     }
 }
 
@@ -579,7 +579,7 @@ footer {
     padding: 0 40px;
     margin: auto;
     text-align: center;
-    background-color: #B22222;
+    
 }
 
 .feature-title h3 {
@@ -612,7 +612,7 @@ footer {
     justify-content: center;
     padding: 10px 20px;
     margin: 0 auto;
-    background-color: #404040;    
+   
 }
 
 @media(max-width:768px){
@@ -624,7 +624,7 @@ footer {
         justify-content: center;
         padding: 5px 10px;
         margin: 0 auto;
-        background-color: #404040;    
+    
     }
 }
 
