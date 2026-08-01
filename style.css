@@ -572,7 +572,7 @@ footer {
         height: auto;
         max-width: 100%;
         margin: 0 auto;
-        padding: 1px 10px;
+        padding: 0;
         border-radius: 12px;
         box-shadow: #222222;
         
@@ -586,6 +586,11 @@ footer {
     margin: auto;
     text-align: center;
     
+}
+@media (max-width: 768px) {
+    .feature-title {
+        padding: 0 10px;
+    }
 }
 
 .feature-title h3 {
@@ -628,7 +633,7 @@ footer {
         height: auto;
         display: flex;
         justify-content: center;
-        padding: 5px 10px;
+        padding: 0;
         margin: 0 auto;
     
     }
@@ -652,7 +657,7 @@ footer {
     text-align: left;
 }
 
-/*@media screen and (max-width: 768px) {  
+@media screen and (max-width: 768px) {  
     .feature-description {
         width: 100%;
         padding: 5px 5px;
@@ -662,7 +667,7 @@ footer {
         text-align: left;
     }
     
-}*/
+}
 
 /*===MORE SERMONS====*/
 
