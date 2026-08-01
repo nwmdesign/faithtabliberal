@@ -513,72 +513,75 @@ header {
     FOOTER
 ========================= */
 
-.site-footer{
-    background:#2f4355;
-    color:#fff;
-    padding:60px 20px 25px;
-    margin-top:60px;
+.site-footer {
+    background: #2f4355;
+    color: white;
+    padding: 50px 30px 20px;
 }
 
-.footer-container{
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+
+.footer-column {
+    flex: 1;
+}
+
+
+.footer-brand {
+    flex: 1.2;
+}
+
+
+.site-footer h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+.site-footer h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+.site-footer p {
+    color: #e2e8ed;
+    line-height: 1.6;
+}
+
+
+.footer-bottom {
     max-width:1200px;
-    margin:auto;
-    text-align:center;
-}
-
-.site-footer h2{
-    color:#fff;
-    margin-bottom:10px;
-    font-size:2rem;
-}
-
-.footer-tagline{
-    color:#d9e2ea;
-    margin-bottom:40px;
-    line-height:1.7;
-}
-
-.footer-info{
-    display:flex;
-    justify-content:space-between;
-    gap:40px;
-    flex-wrap:wrap;
-    text-align:left;
-}
-
-.footer-section{
-    flex:1;
-    min-width:240px;
-}
-
-.footer-section h3{
-    color:#ffffff;
-    margin-bottom:15px;
-    border-bottom:2px solid rgba(255,255,255,.25);
-    padding-bottom:8px;
-}
-
-.footer-section p{
-    margin:8px 0;
-    line-height:1.7;
-}
-
-.site-footer a{
-    color:#ffffff;
-    text-decoration:none;
-}
-
-.site-footer a:hover{
-    text-decoration:underline;
-}
-
-.footer-bottom{
-    margin-top:45px;
+    margin:40px auto 0;
     padding-top:20px;
-    border-top:1px solid rgba(255,255,255,.2);
+    border-top:1px solid rgba(255,255,255,.25);
     text-align:center;
-    color:#d6d6d6;
     font-size:.9rem;
+}
+
+@media(max-width:768px){
+
+    .footer-container {
+        flex-direction:column;
+        text-align:center;
+        gap:30px;
+    }
+
+    .footer-column {
+        width:100%;
+    }
+
 }
 /*====SERMON SECTION====*/
 
