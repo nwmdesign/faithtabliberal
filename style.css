@@ -514,15 +514,19 @@ header {
 ========================= */
 
 footer {
+    display: flex;
     background-color: #151b20;
     color: white;
     text-align: center;
     padding: 20px 0;
 }
 
+
+    
 .footer p {
     margin: 0;
     font-size: 14px;
+    color: #ffffff;
 }
 
 .footer a {
