@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+* {
+    box-sizing:border-box;
+}
 
 body {
     background-color: #E6E7E7;
@@ -10,8 +12,8 @@ body {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+max-width:100%;
+height:auto;
 }
 
 
@@ -57,18 +59,15 @@ nav {
 .nav-links a:hover {
     color: navy;
     background-color: #f4f4f4;
-    font-size: 18px;
-   
-    
-   
+    font-size: 18px;  
 }
 
 .container {
-    max-width: 1400px;
-    width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
-    background-color: ##FF0000;
+    padding: 0 40px;
+   
+    box-sizing: border-box;
 }
 
 header {
@@ -130,11 +129,10 @@ header {
 }
 
 .hero .container {
-    max-width: 1400px;
-    width:90%;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 40px;
-    background-color: #FF0000;
+   
 }
 
 
@@ -142,11 +140,10 @@ header {
 
 .two-columns {
     display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
     padding: 0 40px; 
     gap: 60px;
     justify-content: center;
-    background-color: #FFA500;
+    
 }
 
 .grid-columns {
@@ -155,7 +152,6 @@ header {
     padding: 10px 20px; 
     gap: 60px;
     justify-content: center;
-    background-color: #FFD700;
 }
 
     
@@ -164,10 +160,9 @@ header {
     display: flex;
     flex-direction: column;
     padding: 10px 20px;
-    border-radius: 12px;
-    background-color: #f5f5f5;
-    align-items: center;
+    
 }
+
 
 .sermon-card {
     flex: 1;
@@ -209,7 +204,6 @@ header {
     padding: 10px 20px;
     border-radius: 12px;
     align-items: center;
-    background-color:#00FF00;
 
 }
 
@@ -224,16 +218,13 @@ header {
 
 .column img {
     width: 100%;
-    height: 300px;
+    height: auto;
     object-fit: cover;
     border-radius: 12px;
-    background-color: #4169E1;
 }
 
 
-.background-color {
-    color: #6d9eeb;
-}
+
 
 /* =========================
    LIGHT SECTION
@@ -243,7 +234,7 @@ header {
     background-color: #f5f5f5;
     color: #222222;
     padding: 20px 40px;
-    text-align: center;    
+       
 }
 
 .light-section h2 {
@@ -265,19 +256,34 @@ header {
 }
 
 .light-section-text-box {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     align-items: center;
-    background-color: ##87CEEB;
 }
 
 .mission {
     text-align: center;
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
-    background-color: #808000;
+    padding: 0 20px;
 
+}
+
+.mission h2 {
+    font-size: 3rem;
+    color: #c4e1fb;
+    text-align: center;
+    margin-bottom: 0px; 
+    margin-top: 0px;
+}
+
+.mission p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    font-family: 'open sans', sans-serif;
+    color: #ffffff;
 }
 
 
@@ -292,15 +298,15 @@ header {
 }
 
 .grey-section .container {
+    width: 100%;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 40px;
-    background-color:  #800080;
 }
 
 .grey-section h2 {
     font-size: 3rem;
-    color: #444444;
+    color: #FFF2CC;
     text-align: center;
     margin-bottom: 0px; 
 }
@@ -315,6 +321,7 @@ header {
     font-size: 1.25rem;
     line-height: 1.6;
     font-family: 'open sans', sans-serif;
+    color: #222222;
 }
 
 .grey-section-text-box {
@@ -322,7 +329,21 @@ header {
     max-height: 300px;
     margin: 0 auto;
     align-items: center;
-    background-color: #A52A2A;
+}
+
+.column-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    border-radius: 12px;
+    align-items: center;
+    background-color: #dfdfdf;
+    color: #222222;
+}
+
+.column-card h2 {
+    color: #222222;
 }
 
 
@@ -360,7 +381,6 @@ header {
     max-width: 800px;
     margin: 0 auto;
     align-items: center;
-    background-color: #FFFF00;
 
 }
 
@@ -389,16 +409,18 @@ header {
     margin-top: 20px;
 }
 
+.social-icons h3 {
+    font-size: 1.5rem;
+    color: #1300bb;
+    margin-bottom: 10px; 
+}
+
 .fa-brands {
     font-size: 2rem;
     color: #1d4f91;
     margin-top: 20px;
     transition: color 0.3s ease;
     padding: 10px;
-}
-
-.fa-brands:hover {
-    color: #d4a017;
 }
 
 .fa-youtube {
@@ -453,11 +475,19 @@ footer {
 
 .feature-sermon {
     background-color: #576C7E;
-    padding: 10px 40px;
-    
+    padding: 10px 40px; 
+}
+
+@media(max-width:768px){
+
+    .feature-sermon {
+        background-color: #576C7E;
+        padding: 0px 15px; 
+    }
 }
 
 .feature-sermon .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 40px;
@@ -466,14 +496,27 @@ footer {
     background-color: #000080;
 }
 
+@media(max-width:768px){
+
+    .feature-sermon .container {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 1px 10px;
+        border-radius: 12px;
+        box-shadow: #222222;
+        background-color: #000080;
+    }
+}
+
 .feature-title {
+    width: 100%;
     max-width: 800px;
     padding: 0 40px;
     margin: auto;
     text-align: center;
     background-color: #B22222;
-    
-
 }
 
 .feature-title h3 {
@@ -498,24 +541,59 @@ footer {
 }
 
 .feature-video {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
     max-width: 750px;
     display: flex;
     justify-content: center;
     padding: 10px 20px;
     margin: 0 auto;
-    background-color: #404040;
-    
+    background-color: #404040;    
 }
 
+@media(max-width:768px){
+
+    .feature-video {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 5px 10px;
+        margin: 0 auto;
+        background-color: #404040;    
+    }
+}
+
+.feature-video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border: 0;
+}
+
+
 .feature-description {
+    width: 100%;
     max-width: 700px;
     padding: 10px 20px;
     margin: 0 auto ;
     background-color: #dfdfdf;
     border-radius: 30px;
     text-align: left;
-    
+}
 
+@media screen and (max-width: 768px) {  
+    .feature-description {
+        width: 100%;
+        padding: 5px 5px;
+        margin: 0 auto ;
+        background-color: #dfdfdf;
+        border-radius: 30px;
+        text-align: left;
+    }
+    
 }
 
 /*===MORE SERMONS====*/
@@ -553,3 +631,89 @@ footer {
 }
 
 
+.page-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #576C7E;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.page-content h2 {
+    font-size: 2.5rem;
+    color: #FFF2CC;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.page-content p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    font-family: 'open sans', sans-serif;
+    color: #FFF2CC;
+}
+
+
+@media(max-width:768px){
+
+    nav {
+        flex-direction:column;
+    }
+
+    .nav-links {
+        flex-direction:column;
+    }
+
+    .two-columns {
+        flex-direction:column;
+        padding:0;
+    }
+
+    .light-section h2,
+    .grey-section h2,
+    .tan-section h2 {
+        font-size:2rem;
+    }
+
+    .hero h1,
+    .hero-title h1 {
+        font-size:32px;
+    }
+
+    .light-section-text-box {
+        width:100%;
+    }
+
+    .container {
+        width:100%;
+        padding:0 10px;
+    }
+
+    .grey-section {
+    background-color: #576C7E;
+    color: #222222;
+    padding: 10px 15px;   
+    }
+
+    .light-section {
+    background-color: #f5f5f5;
+    color: #222222;
+    padding: 10px 15px;   
+    }
+
+    .page-content h2 {
+    font-size: 2rem;
+    color: #FFF2CC;
+    text-align: left;
+    margin-bottom: 0px;
+    }
+
+    .page-content p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    font-family: 'open sans', sans-serif;
+    color: #FFF2CC;
+    }
+
+}  
