@@ -632,7 +632,8 @@ footer {
 
 
 .page-content {
-    max-width: 1000px;
+    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     background-color: #576C7E;
