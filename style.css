@@ -607,7 +607,7 @@ footer {
     width: 100%;
     max-width: 750px;
     height: auto;
-    max-width: 750px;
+    position: relative;
     display: flex;
     justify-content: center;
     padding: 10px 20px;
@@ -620,7 +620,6 @@ footer {
     .feature-video {
         width: 100%;
         height: auto;
-        max-width: 100%;
         display: flex;
         justify-content: center;
         padding: 5px 10px;
@@ -647,7 +646,7 @@ footer {
     text-align: left;
 }
 
-@media screen and (max-width: 768px) {  
+/*@media screen and (max-width: 768px) {  
     .feature-description {
         width: 100%;
         padding: 5px 5px;
@@ -657,7 +656,7 @@ footer {
         text-align: left;
     }
     
-}
+}*/
 
 /*===MORE SERMONS====*/
 
