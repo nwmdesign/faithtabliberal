@@ -267,6 +267,7 @@ header {
 .title-section {
     background-color: #f5f5f5;
     color: #222222;
+    margin-top: 50px
     padding: 20px 40px;
     align-items: center;
        
@@ -692,9 +693,15 @@ footer {
     padding: 100px 20px;
 }
 
+.page-section {
+    width: 100%
+    padding: 10px 40px;
+}
+    
 
 .page-content {
-    max-width: 1000px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     background-color: #576C7E;
