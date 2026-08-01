@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: beliefs
 title: What We Believe
 description: Our Statement of Faith
 ---
