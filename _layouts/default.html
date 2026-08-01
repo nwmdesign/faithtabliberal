@@ -14,5 +14,16 @@
     {{ content }}
 
     {% include footer.html %}
+    <script>
+    function showSidebar() {
+        const sidebar = document.querySelector('.side-nav');
+        sidebar.style.display = 'flex';
+    }
+
+    function hideSidebar() {
+        const sidebar = document.querySelector('.side-nav');
+        sidebar.style.display = 'none';
+    }
+</script>
 </body>
 </html>
