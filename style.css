@@ -747,3 +747,8 @@ footer {
     text-align: center;
     
 }
+
+.page-section {
+    width: 100%;
+    max-width: 1200px;
+}
