@@ -24,7 +24,12 @@ title: Watch Sermons
                 </h2>
 
             <div class="feature-video">
-                <iframe width="700" height="400" src="https://www.youtube.com/embed/{{ latest.youtube }}" title="{{ latest.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe 
+                    src="https://www.youtube.com/embed/{{ latest.youtube }}" 
+                    title="{{ latest.title }}" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
             </div>
             <div class="feature-description">
                 <p><strong>Description:</strong></p>
