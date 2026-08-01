@@ -2,7 +2,7 @@
 layout: default
 title: Watch Sermons
 ---
-<header>
+
     {% include nav.html %}
     <section class="light-section">
         <div class="container">
@@ -10,7 +10,6 @@ title: Watch Sermons
             <p>Welcome to Faith Tabernacle Church! We are a vibrant community of believers dedicated to growing in our relationship with God and serving our neighbors.</p>
         </div>
     </section>
-</header>
 
     {% assign latest = site.sermons | sort: "date" | reverse | first %}
     <Section class="feature-sermon">
