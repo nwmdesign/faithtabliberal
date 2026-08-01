@@ -696,6 +696,7 @@ footer {
 .page-section {
     width: 100%
     padding: 10px 40px;
+    background-color: blue;
 }
     
 
