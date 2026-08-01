@@ -1,16 +1,31 @@
 <header>
         <nav>
         <div class="logo">
-            <a href="{{ '/' | relative_url }}"><IMG SRC="{{ 'images/logo.png' | relative_url }}" alt="church logo"></a>
+            <a href="{{ '/' | relative_url }}"><IMG SRC="{{ '/images/logo.png' | relative_url }}" alt="church logo"></a>
         </div>
+        
+        <div class="side-nav">
+            <a href="#" onclick="hideSidebar()">
+                <img src="{{ '/images/close_24dp_000000_FILL1_wght400_GRAD0_opsz24.svg' | relative_url }}" alt="Close">
+            </a>
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/about' | relative_url }}">About Us</a>
+            <a href="{{ '/watch' | relative_url }}">Watch Sermons</a>
+            <a href="{{ '/beliefs' | relative_url }}">What We Believe</a>
+            <a href="{{ '/events' | relative_url }}">Events</a>
+        </div>
+        
         <div class="nav-links">
             
             <a href="{{ '/' | relative_url }}">Home</a>
             <a href="{{ '/about' | relative_url }}">About Us</a>
             <a href="{{ '/watch' | relative_url }}">Watch Sermons</a>
             <a href="{{ '/beliefs' | relative_url }}">What We Believe</a>
-            <a href="events">Events</a>
+            <a href="{{ '/events' | relative_url }}">Events</a>
+            
         </div>
+        <a class="menu" onclick="showSidebar()" href="#">
+                <img src="{{ '/images/menu_24dp_434343_FILL0_wght400_GRAD0_opsz24.svg' | relative_url }}" alt="Menu">
+            </a>
         </nav>
 </header>
-
