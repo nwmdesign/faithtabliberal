@@ -63,9 +63,6 @@ nav {
    
 }
 
-
-
-
 .container {
     max-width: 1400px;
     width: 90%;
@@ -150,12 +147,7 @@ header {
     gap: 60px;
     justify-content: center;
     background-color: #FFA500;
-}
-@media (max-width: 768px) {
-    .two-columns {
-        flex-direction: column;
-    }
-}
+
 
 .grid-columns {
     display: grid;
@@ -166,14 +158,6 @@ header {
     background-color: #FFD700;
 }
 
-@media (max-width:768px) {
-    .grid-columns {
-        grid-template-columns: 1fr
-    }
-    .sermon-grid {
-        grid-template-columns: 1fr;
-    }
-}
     
 .column {
     flex: 1;
@@ -246,11 +230,6 @@ header {
     background-color: #4169E1;
 }
 
-@media (max-width: 768px) {
-    .column img {
-        height: auto;
-    }
-}
 
 .background-color {
     color: #6d9eeb;
@@ -573,8 +552,4 @@ footer {
     padding: 100px 20px;
 }
 
-@media (max-width:768px) {
-    .hero {
-        background-position: center;
-    }
-}
+
