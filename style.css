@@ -572,7 +572,7 @@ footer {
         height: auto;
         max-width: 100%;
         margin: 0 auto;
-        padding: 2px 0;
+        padding: 0;
         border-radius: 12px;
         box-shadow: #222222;
         
@@ -661,7 +661,7 @@ footer {
     .feature-description {
         width: 100%;
         padding: 5px 5px;
-        margin: 5px auto;
+        margin: 0 auto;
         background-color: #dfdfdf;
         border-radius: 30px;
         text-align: left;
