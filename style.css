@@ -71,7 +71,7 @@ nav {
     width: 90%;
     margin: 0 auto;
     padding: 0 20px;
-    ;
+    background-color: ##FF0000;
 }
 
 header {
@@ -137,6 +137,7 @@ header {
     width:90%;
     margin: 0 auto;
     padding: 0 40px;
+    background-color: #FF0000;
 }
 
 
@@ -148,6 +149,7 @@ header {
     padding: 0 40px; 
     gap: 60px;
     justify-content: center;
+    background-color: #FFA500;
 }
 @media (max-width: 768px) {
     .two-columns {
@@ -161,6 +163,7 @@ header {
     padding: 10px 20px; 
     gap: 60px;
     justify-content: center;
+    background-color: #FFD700;
 }
 
 @media (max-width:768px) {
@@ -222,6 +225,7 @@ header {
     padding: 10px 20px;
     border-radius: 12px;
     align-items: center;
+    background-color:#00FF00;
 
 }
 
@@ -239,6 +243,7 @@ header {
     height: 300px;
     object-fit: cover;
     border-radius: 12px;
+    background-color: #4169E1;
 }
 
 @media (max-width: 768px) {
@@ -285,12 +290,14 @@ header {
     height: auto;
     margin: 0 auto;
     align-items: center;
+    background-color: ##87CEEB;
 }
 
 .mission {
     text-align: center;
     max-width: 1100px;
     margin: 0 auto;
+    background-color: #808000;
 
 }
 
@@ -309,6 +316,7 @@ header {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 40px;
+    background-color:  #800080;
 }
 
 .grey-section h2 {
@@ -335,6 +343,7 @@ header {
     max-height: 300px;
     margin: 0 auto;
     align-items: center;
+    background-color: #A52A2A;
 }
 
 
@@ -372,6 +381,7 @@ header {
     max-width: 800px;
     margin: 0 auto;
     align-items: center;
+    background-color: #FFFF00;
 
 }
 
@@ -474,6 +484,7 @@ footer {
     padding: 20px 40px;
     border-radius: 12px;
     box-shadow: #222222;
+    background-color: #000080;
 }
 
 .feature-title {
@@ -481,6 +492,7 @@ footer {
     padding: 0 40px;
     margin: auto;
     text-align: center;
+    background-color: #B22222;
     
 
 }
@@ -512,6 +524,7 @@ footer {
     justify-content: center;
     padding: 10px 20px;
     margin: 0 auto;
+    background-color: #404040;
     
 }
 
@@ -531,6 +544,7 @@ footer {
 .explore-sermons {
     padding: 20px 40px;
     text-align: center;
+    background-color: #FFFFFF;
 }
 
 .explore-sermons h3 {
@@ -548,6 +562,7 @@ footer {
     padding: 10px 20px; 
     gap: 60px;
     justify-content: center;
+    background-color:  #228B22;
 }
 
 .feature-image {
