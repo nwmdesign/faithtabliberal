@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: mission
 title: Plan Your Visit
 ---
 
