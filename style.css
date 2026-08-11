@@ -382,7 +382,7 @@ header {
     line-height: 1.6;
     font-weight: 500;
     font-family: 'open sans', sans-serif;
-    color: #444444;
+    color: #f5f8d6;
 }
 
 .grey-section h2 {
@@ -531,6 +531,10 @@ header {
     padding: 50px 30px 20px;
 }
 
+.site-footer a {
+    color: #ffffff;
+}
+
 
 .footer-container {
     max-width: 1200px;
@@ -581,6 +585,8 @@ header {
     text-align:center;
     font-size:.9rem;
 }
+
+.site-footer 
 
 @media(max-width:768px){
 
