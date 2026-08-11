@@ -3,7 +3,7 @@ layout: mission
 title: Plan Your Visit
 ---
 
-# We Invite You to Visit Our Church
+## We Invite You to Visit Our Church
 
 We would love for you to visit Faith Tabernacle Church! Whether you are looking for a church home, seeking to grow in your faith, or simply want to learn more about our church family, we invite you to join us.
 
