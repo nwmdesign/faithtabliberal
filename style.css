@@ -373,15 +373,16 @@ header {
     padding: 0 40px;
 }
 
-grey-section .mission h1, h2, h3 {
+.grey-section .mission h1, h2, h3 {
     color: #1F2D3D;
 }
 
 .grey-section .mission p {
     font-size: 1.25rem;
     line-height: 1.6;
+    font-weight: 500;
     font-family: 'open sans', sans-serif;
-    color: #334155;
+    color: #444444;
 }
 
 .grey-section h2 {
