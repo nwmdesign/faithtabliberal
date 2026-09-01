@@ -1,5 +1,5 @@
 ---
-title: '"The Arrival of the New King"'
+title: '"The Anticipation of the New King"'
 scripture: Mark 1:1-8
 date: 2026-08-30
 description: The arrival of Jesus is the arrival of God’s promised King, who
